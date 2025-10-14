@@ -1,0 +1,120 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e1e2f, #2d2d44);
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f7df1e;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.logo {
+    background-color: #000;
+    color: #f7df1e;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    color: #f7df1e;
+    border-left: 6px solid #f7df1e;
+    padding-left: 10px;
+    margin-bottom: 1rem;
+}
+
+p, ul {
+    font-size: 1rem;
+    color: #e2e2e2;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+strong {
+    color: #fff44f;
+}
+
+footer {
+    background-color: #27293d;
+    color: #ccc;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 0.9rem;
+    border-top: 2px solid #f7df1e;
+}
+
+a {
+    color: #f7df1e;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        font-size: 1.6rem;
+    }
+}
+
