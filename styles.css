@@ -20,6 +20,21 @@ header {
     position: relative;
 }
 
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #2d2d44;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+header nav a:hover {
+  background-color: #16325c;
+}
+
+
 .logo {
     background-color: #000;
     color: #f7df1e;
